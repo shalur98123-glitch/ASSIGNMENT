@@ -29,6 +29,68 @@
             <br>
         </form>
     </main>
-  
+      <!-- Updated form section in index.html -->
+        <form action="#" method="POST">
+            <!-- Previous fields remain here -->
+            <div>
+                <label for="student-name">Full Name:</label>
+                <input type="text" id="student-name" name="student-name" required>
+            </div>
+            <br>
+            <div>
+                <label for="student-email">Email Address:</label>
+                <input type="email" id="student-email" name="student-email" required>
+            </div>
+            <br>
+            <div>
+                <label for="student-password">Password:</label>
+                <input type="password" id="student-password" name="student-password" required>
+            </div>
+            <br>
+
+            <!-- Task 4.2: Advanced Inputs -->
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+            </div>
+            <br>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <div>
+                <label>Interests:</label>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="designing" name="interests" value="designing">
+                <label for="designing">Designing</label>
+            </div>
+            <br>
+            <div>
+                <label for="year">Year of Study:</label>
+                <select id="year" name="year">
+                    <option value="1st-year">1st Year</option>
+                    <option value="2nd-year">2nd Year</option>
+                    <option value="3rd-year">3rd Year</option>
+                    <option value="4th-year">4th Year</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="message">Why do you want to join?</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+            </div>
+            <br>
+            <button type="submit">Submit Registration</button>
+        </form>
 </body>
 </html>
