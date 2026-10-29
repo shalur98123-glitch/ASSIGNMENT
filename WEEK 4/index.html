@@ -132,5 +132,107 @@
     
     <title>Tech Club - Master Portal</title>
 </head>
+
+                <tr style="background-color: #f2f2f2;">
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>💡 Hackathon 2026</td>
+                    <td>November 15, 2026</td>
+                    <td>Main Lab 1</td>
+                </tr>
+                <tr>
+                    <td>🌐 Web Dev Workshop</td>
+                    <td>December 05, 2026</td>
+                    <td>Seminar Hall B</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr style="font-weight: bold; background-color: #f9f9f9;">
+                    <td colspan="3">Total Scheduled Events: 2</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br><hr><br>
+
+        <!-- Task 4.1 & 4.2: Registration Form Section -->
+        <h2>Student Registration Form</h2>
+        <form action="#" method="POST">
+            
+            <!-- Task 4.1 Core Inputs -->
+            <div>
+                <label for="student-name">Full Name:</label><br>
+                <input type="text" id="student-name" name="student-name" placeholder="Enter full name" required>
+            </div>
+            <br>
+            <div>
+                <label for="student-email">Email Address:</label><br>
+                <input type="email" id="student-email" name="student-email" placeholder="example@domain.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="student-password">Password:</label><br>
+                <input type="password" id="student-password" name="student-password" required>
+            </div>
+            <br>
+
+            <!-- Task 4.2 Extended Inputs -->
+            <div>
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+            </div>
+            <br>
+            <div>
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <div>
+                <label>Interests:</label><br>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="designing" name="interests" value="designing">
+                <label for="designing">Designing</label>
+            </div>
+            <br>
+            <div>
+                <label for="year">Year of Study:</label><br>
+                <select id="year" name="year">
+                    <option value="1st-year">1st Year</option>
+                    <option value="2nd-year">2nd Year</option>
+                    <option value="3rd-year">3rd Year</option>
+                    <option value="4th-year">4th Year</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="message">Queries/Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40" placeholder="Type your message here..."></textarea>
+            </div>
+            <br>
+            <button type="submit">Submit Registration</button>
+        </form>
+    </main>
+
+    <br><hr>
+    <footer>
+        <p>&copy; 2026 Tech Club Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
 </body>
 </html>
