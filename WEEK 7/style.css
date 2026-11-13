@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar button {
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+    min-height: 300px;
+    padding: 30px;
+}
+
+.banner-content h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    margin-bottom: 20px;
+}
+
+.banner button {
+    background-color: blue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    flex: 1 1 200px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: blue;
+    margin-bottom: 15px;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-content h1 {
+        font-size: 25px;
+    }
+}
