@@ -1,0 +1,120 @@
+
+/* 5.2 Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 5.4 Root Variables */
+
+:root {
+    --primary-color: #4b3fbd;
+    --secondary-color: #e9e7ff;
+    --background-color: #f4f5fb;
+    --text-color: #333333;
+    --spacing: 20px;
+}
+
+/* Body Styling */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.7;
+    padding: var(--spacing);
+}
+
+/* 5.2 Element Selector */
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* 5.2 ID Selector */
+
+#hero {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: var(--spacing);
+}
+
+#hero nav {
+    margin-top: 15px;
+}
+
+#hero a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 500;
+}
+
+/* 5.2 Class Selector */
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: var(--spacing);
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--secondary-color);
+}
+
+/* Form Styling */
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #30268d;
+}

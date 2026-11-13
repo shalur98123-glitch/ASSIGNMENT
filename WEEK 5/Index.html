@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coding Club</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* CSS code will be added here */
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="hero">
+        <h1>Coding Club</h1>
+        <p>Welcome to our Coding Club!</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>About Our Club</h2>
+            <p>
+                Coding Club helps students learn programming,
+                web development and problem solving skills.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Upcoming Events</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                    <th>Venue</th>
+                </tr>
+
+                <tr>
+                    <td>HTML Workshop</td>
+                    <td>12 November</td>
+                    <td>Lab 1</td>
+                </tr>
+
+                <tr>
+                    <td>Hackathon</td>
+                    <td>20 November</td>
+                    <td>Seminar Hall</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2>Join Our Club</h2>
+
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Enter your name">
+                <br>
+                <label>Email:</label>
+                <input type="email" placeholder="Enter your email">
+                 <br>
+                <label>Password:</label>
+                <input type="password">
+                <br>
+                <label>Date of Birth:</label>
+                <input type="date">
+                <br>
+                <label>Phone:</label>
+                <input type="tel">
+
+                <p>Gender:</p>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+
+                <p>Interests:</p>
+                <input type="checkbox"> Web Development
+                <input type="checkbox"> DSA
+
+                <p>Branch:</p>
+                <select>
+                    <option>BCA</option>
+                    <option>B.Tech CSE</option>
+                    <option>B.Tech AI</option>
+                </select>
+
+                <p>Message:</p>
+                <textarea placeholder="Write your message"></textarea>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
+
